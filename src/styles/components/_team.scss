@@ -1,0 +1,55 @@
+.team {
+
+}
+
+.grid-item-team {
+    border-bottom: 2px solid #dfe4e5;
+
+}
+
+.member-summury {
+    background-color: var(--color-secondary);
+    .container {
+        .accordion-tab {
+            max-width: 780px;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            .card {
+                position: relative;
+                .x-icon {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+                p {
+                    color: #ffffff;
+                }
+                .social {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-left: -12px;
+                    .card-image {
+                        width: 36px;
+                        height: 36px;
+                        margin: 0 12px;
+                        border: 1px solid #ffffff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .card-icon {
+
+                        }
+                        svg {
+                            path {
+                                fill: #ffffff;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

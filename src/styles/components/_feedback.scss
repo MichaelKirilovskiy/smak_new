@@ -1,0 +1,17 @@
+.feedbacks {
+  background-color: var(--color-secondary);
+  padding-bottom: 60px;
+  padding-top: 60px;
+  .feedbacks-slider{
+    color: #ffffff;
+    .heading {
+      padding: 0%;
+      h3 {
+        color: #ffffff;
+      }
+      p {
+        color: #ffffff;
+      }
+    }
+  }
+}

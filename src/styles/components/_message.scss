@@ -1,0 +1,47 @@
+.contact-form {
+  background-color: #11343a;
+  .container {
+    .heading-wo-stripe {
+      .heading-title {
+        color: #ffffff;
+      }
+      p {
+        color: #ffffff;
+      }
+    }
+    form {
+    fieldset {
+      border: none;
+      padding: 0;
+      .grid-fieldset {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        text-align: center;
+        .contact {
+          flex-basis: calc( 100% / 3 - 20px);
+          input {
+            background: none;
+            border: 1px solid #ffffff;
+            width: 100%;
+          }
+        }
+      }
+
+      p {
+
+
+
+        textarea {
+          width: 100%;
+          background: none;
+          border: 1px solid #ffffff;
+        }
+      }
+
+    }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+
+.contact-form, .contact-clients {
+    flex-basis: calc( 100% / 2 - 50px);
+    text-align: left;
+}
+form label {
+    display: none;
+}
+.contact fieldset {
+    padding: 0;
+    border: none;
+}
+.contact input, .contact textarea {
+    width: 100%;
+}
+
+.contact {
+
+    .container {
+
+        .grid {
+
+            .grid-item {
+
+                flex-basis: calc( 100% / 3 - 20px);
+
+                .card {
+                    h4 {
+                        color: var(--color-secondary);
+                    }
+                    .card-image {
+                        .card-icon {
+                            svg {
+                                path {
+                                    fill: var(--color-primary);
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

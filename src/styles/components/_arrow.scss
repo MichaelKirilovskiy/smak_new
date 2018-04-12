@@ -1,0 +1,27 @@
+.arrow {
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .arrow-icon {
+    svg {
+      path {
+        fill: #FFF;
+      }
+    }
+  }
+
+}
+.arrow:hover {
+  background-color: #000000;
+  .arrow-icon {
+    svg {
+      path {
+        fill:  var(--color-primary);
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.about {
+    .container {
+      .grid-features {
+        .grid-item {
+          flex-basis: calc( 100% / 2 - 30px);
+          .card {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            .card-image {
+              flex-basis: calc( 12% - 15px);
+              .card-icon {
+                background-color: var(--color-primary);
+                border-radius: 50%;
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                svg {
+                  path {
+                    fill: #ffffff;
+                  }
+                }
+              }
+            }
+            .card-container {
+              text-align: left;
+              flex-basis: calc( 88% - 15px);
+              .card-title {
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+}
