@@ -4,13 +4,15 @@
 
 .grid-item-team {
     border-bottom: 2px solid #dfe4e5;
-
+}
+.grid-item-team:hover {
+    cursor: pointer;
 }
 
 .member-summury {
     background-color: var(--color-secondary);
     .container {
-        .accordion-tab {
+        .team-cards {
             max-width: 780px;
             text-align: left;
             margin-left: auto;
@@ -53,3 +55,4 @@
         }
     }
 }
+
